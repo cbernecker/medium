@@ -5,7 +5,7 @@ This repository will store all my activities and code snippets I use on Medium. 
 
 # Natural Language Processing - NLP
 
-## NLP SIMILARITY: Use pretrained word embeddings for semantic similarity search with BERT Transformers
+## Semantic Search with Embeddings
 
 ![Word Embeddings](images/word_embeddings.webp "Word Embeddings")
 
@@ -21,7 +21,7 @@ The corresponding articel you will find here:
 You can find the notebook here: [Word Embeddings](word_embeddings.ipynb)
 
 
-## Semantic Search with Vector Embeddings 
+## Semantic Search with Embeddings + Vector Database 
 
 ![Architecture for advanced semantic similarity search](images/semantic_search.webp "Architecture for advanced semantic similarity search")
 
@@ -38,7 +38,7 @@ The corresponding articel you will find here:
 You can find the notebook here: [Semantic Search](semantic_search.ipynb)
 
 
-## Simple Question Answering System - RAG
+## Semantic Search with Embeddings + Vector Database + LLM -> Simple Question Answering System - RAG
 
 ![Simplified RAG Architecture](images/simplified_RAG_architecture.webp "Retrieval Augmented Generation (RAG)")
 
