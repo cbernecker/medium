@@ -5,6 +5,21 @@ This repository will store all my activities and code snippets I use on Medium. 
 
 # Natural Language Processing - NLP
 
+## NLP SIMILARITY: Use pretrained word embeddings for semantic similarity search with BERT Transformers
+
+![Word Embeddings](images/word_embeddings.webp "Word Embeddings")
+
+
+Explore the world of semantic similarity search using pretrained word embeddings with BERT Transformers in this code snippet. The example demonstrates how to compute and compare sentence embeddings, enabling semantic search for related content.
+
+The corresponding articel you will find here:
+[NLP SIMILARITY: Use pretrained word embeddings for semantic similarity search with BERT Transformers](https://medium.com/@christianbernecker/nlp-similarity-use-pretrained-word-embeddings-for-semantic-similarity-search-with-bert-4beaf7b6a148)
+
+1. Create Sentence Embeddings: Utilize pretrained BERT Transformers to encode sentences into numerical representations.
+2. Compute Similarities: Use cosine similarity to measure the similarity between sentence embeddings.
+
+You can find the notebook here: [Word Embeddings](word_embeddings.ipynb)
+
 
 ## Semantic Search with Vector Embeddings 
 
