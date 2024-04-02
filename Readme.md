@@ -54,3 +54,6 @@ The corresponding articel you will find here:
 5. **Question-Answering Chain:** Utilize the integrated components to answer specific queries with contextual information.
 
 You can find the notebook here: [RAG Question Answering System](question_answering_rag.ipynb)
+If you want to use OpenAI you can jump to the following notebook: [RAG Question Answering System with OpenAI](question_answering_rag_openAI.ipynb)
+
+
