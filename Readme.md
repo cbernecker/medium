@@ -3,12 +3,39 @@
 This repository will store all my activities and code snippets I use on Medium. You can follow me on Medium to get the latets updates: 
 [Medium - Christian Bernecker](https://medium.com/@christianbernecker)
 
+
+# Content
+
+1. [Datascience Basics](#datascience-basics)
+   - [Confustion matrix in PyTorch](#create-a-confustion-matrix-with-pytorch) 
+2. [Natural Language Processing](#natural-language-processing---nlp)
+   - [Install a local LLM](#install-a-local-llm) 
+   - [Semantic Search with Embeddings](#semantic-search-with-embeddings)
+   - [Semantic Search with Embeddings + Vector Database](semantic-search-with-embeddings--vector-database)
+   - [Question Answering System - RAG](#semantic-search-with-embeddings--vector-database--llm---simple-question-answering-system---rag)
+
+
+
+
+# Datascience Basics
+## Create a confustion matrix with PyTorch
+
+This is a short tutorial on how to create a confusion matrix in PyTorch. I’ve often seen people have trouble creating a confusion matrix. But this is a helpful metric to see how well each class performs in your dataset. It can help you find problems between classes.
+
+
+![Confustion Matrix](images/confusion_matrix.png "Confustion Matrix")
+
+The corresponding articel you will find here:
+[How to create a confusion matrix in PyTorch](https://medium.com/@christianbernecker/how-to-create-a-confusion-matrix-in-pytorch-38d06a7f04b7)
+
+You can find the notebook here: [Create a confustion matrix with PyTorch](confusion_matrix.ipynb)
+
 # Natural Language Processing - NLP
+## Install a local LLM
 
 ## Semantic Search with Embeddings
 
 ![Word Embeddings](images/word_embeddings.webp "Word Embeddings")
-
 
 Explore the world of semantic similarity search using pretrained word embeddings with BERT Transformers in this code snippet. The example demonstrates how to compute and compare sentence embeddings, enabling semantic search for related content.
 
@@ -53,7 +80,6 @@ The corresponding articel you will find here:
 4. **Initialize Local LLM Model:** Load a local Large Language Model for answering questions.
 5. **Question-Answering Chain:** Utilize the integrated components to answer specific queries with contextual information.
 
-You can find the notebook here: [RAG Question Answering System](question_answering_rag.ipynb)
-If you want to use OpenAI you can jump to the following notebook: [RAG Question Answering System with OpenAI](question_answering_rag_openAI.ipynb)
-
-
+You can find the notebook here: 
+ - [RAG Question Answering System](question_answering_rag.ipynb)
+ - [RAG Question Answering System with OpenAI](question_answering_rag_openAI.ipynb) ( If you want to use OpenAI you use that notebook)
